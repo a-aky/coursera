@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+}
+  nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+    opacity:0.5;
+  }
+ 
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-style: italic ;
+    border-style:groove;
+    font-family: 'Pacifico', cursive;
+  }
+  .search{
+    position:relative;
+    right:-12.75rem;
+    top:-2.75rem;
+    border-radius:4px;
+    border-style: double;
+    border-color:#1b9bff;
+    padding:5px 10px 5px 10px;
+  }
+  .sbutton{
+    position:relative;
+    right:2.5rem;
+    top:2rem;
+    padding:0.50rem 0.70rem 0.50rem 0.70rem;
+    border-radius: 0.45rem;
+    background:rgb(5, 5, 233);
+    color:white;
+    font-family: 'Pacifico', cursive;
+  }
+  a.active,a:hover{
+    color:black;
+    background:#B1D0E0;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+.div{
+    background:black;
+    padding:70px 10rem 70px 3rem;
+    margin-left:68%;
+    margin-top:2.5rem;
+    color:white;
+    display:inline-block;
+    font-size:20px;
+    border-radius:10px;
+    display:flexbox;
+    opacity:0.5;
+    font-family: 'Pacifico', cursive;
+    
+}
+.logo{
+  color:#00B4D8;
+  font-size:30px;
+  font-weight:bold;
+  line-height:80px;
+  padding-left:100px;
+  font-family: 'Pacifico', cursive;
+}
+.p
+{
+  text-align:center;
+  position:relative;
+  top:20rem;
+  left:-25rem;
+  font-size:3rem;
+  color:#E8F9FD;
+  font-family: 'Pacifico', cursive;
+  opacity:0.5;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+}

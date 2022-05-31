@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Topography Specifics</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
+    </head>
+    <body>
+    <video autoplay muted loop id="myVideo">
+            <source src="edit.mp4" type="video/mp4">
+          </video>
+        <nav >
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Topography Specifics</label>
+            <ul>
+                <li><a class="active"  href="#">Home</a></li>
+                <li><a href="map.html">Maps</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+        <section></section>
+        <p class="p"> Get to know about <br>any Country..!</p>
+        <div class="div">
+        <p>Enter Country Name:</p>
+        <div >
+            <form class="form-inline">
+                <input class="search" type="search"  aria-label="Search" name="search">
+                <button class="sbutton" type="submit" name="submit" onClick="change()">Search</button>
+              </form>
+              <script>
+                  function change(){
+                      document.getElementsByClassName("sbutton").style.backgroundImage="url('earth.jpg')";
+                  }
+              </script>
+          </div>   
+        </div>
+       
+    </body>
+</html>
